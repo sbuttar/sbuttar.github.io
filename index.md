@@ -1,6 +1,8 @@
-## Welcome to GitHub Pages
+### Pardon our dust, site is currently under construction! 
 
-You can use the [editor on GitHub](https://github.com/sbuttar/sbuttar.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### I'm Simrun Buttar 
+I'm currently a sophomore at the University of Michigan - Ann Arbor. 
+[LinkedIn](https://www.linkedin.com/in/sbuttar/)
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
