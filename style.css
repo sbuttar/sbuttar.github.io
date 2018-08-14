@@ -1,0 +1,193 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+.circle{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    max-width: 200px;
+    height: auto;
+}
+
+.intro-content{
+    display: block;
+    text-align: center;
+    color: black;
+    padding: 50px;
+}
+
+.intro{
+    background-color: white;
+}
+
+.projects{
+    margin-top: -45px;
+    background-color: lightblue;
+}
+
+.projects-header{
+    font-size: 2em;
+}
+
+.projects-content{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    padding-top: 1px;
+}
+
+.future{
+    background-color: #a3b0bd;
+    margin-top: -50px;
+    padding-top: 5px;
+}
+
+
+.future-header{
+    font-size: 2em;
+}
+
+.future-content{
+    text-align: center;
+    color: black;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+.laptop{
+    margin-top: -30px;
+}
+
+.education{
+    background-color: #002a4a;
+    margin-top: -45px;
+    padding-top: 5px;
+}
+
+.education-header{
+    font-size: 2em;
+}
+
+.education-content{
+    text-align: center;
+    color: white;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+.umichlogo{
+    display: block;
+    margin-top: -20px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    height: auto;
+}
+
+.contact-content{
+    display: block;
+    text-align: center;
+    background-color: white;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.project-github{
+    text-decoration: underline;
+}
+
+.linklogo{
+    max-width: 80px;
+    height: auto;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.project-flex-container{
+    display: inline-flex;
+    margin-top: -40px;
+}
+
+.project-info{
+    margin: 40px;
+    /*border: 1px solid black;
+    padding: 5px;*/
+}
+
+.projectlogo:hover{
+    cursor: pointer;
+}
+.projectlogo{
+    max-height: 200px;
+    width: auto;
+}
+
+
+
+.overlay-container{
+    position: relative;
+    width: 100%;
+    padding: 0px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+  padding: 0px;
+}
+
+.overlay-container:hover .overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  /*mess with this to move text*/
+  width: 300px;
+  transform: translate(-50%, -70%);
+
+  text-align: left;
+}
+
+
+
+.contact-link{
+    display: inline-flex;
+    margin: 40px;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.contact-link:hover{
+    background-color: white;
+    filter: invert(100%);
+    
+}
