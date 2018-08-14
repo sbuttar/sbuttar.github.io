@@ -8,8 +8,11 @@ body{
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
-    max-width: 200px;
     height: auto;
+    width: auto;
+    max-width: 300px;
+    max-height: 300px;
+    
 }
 
 .intro-content{
@@ -20,7 +23,7 @@ body{
 }
 
 .intro{
-    background-color: white;
+    background-color: #c7dee8;
 }
 
 .projects{
