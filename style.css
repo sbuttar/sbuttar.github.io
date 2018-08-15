@@ -1,5 +1,5 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Futura', sans-serif;
     margin: 0px;
 }
 
@@ -9,7 +9,7 @@ body{
     border-radius: 50%;
     height: auto;
     width: auto;
-    max-width: 300px;
+    max-width: 200px;
     
 }
 
@@ -18,55 +18,16 @@ body{
     text-align: center;
     color: white;
     padding: 50px;
+    font-size: 25px;
 }
 
 .intro{
-    background-image: url("bay.jpg");
+    background-image: url("bay2.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 
-.projects{
-    margin-top: -45px;
-    background-color: ;
-}
-
-.projects-header{
-    font-size: 2em;
-}
-
-.projects-content{
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 20px;
-    padding-top: 1px;
-}
-
-.future{
-    background-color: #a3b0bd;
-    margin-top: -50px;
-    padding-top: 5px;
-}
-
-
-.future-header{
-    font-size: 2em;
-}
-
-.future-content{
-    text-align: center;
-    color: black;
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 50px;
-}
-
-.laptop{
-    margin-top: -30px;
-}
 
 .education{
     background-color: #011B3E;
@@ -74,9 +35,6 @@ body{
     padding-top: 5px;
 }
 
-.education-header{
-    font-size: 2em;
-}
 
 .education-content{
     text-align: center;
@@ -84,7 +42,7 @@ body{
     width: 600px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 }
 
 .umichlogo{
@@ -92,6 +50,7 @@ body{
     background-size: cover;
     width: 213.5%;
     margin-top: -5px;
+    margin-right: auto;
     margin-left: -340px;
 }
 
@@ -102,41 +61,17 @@ body{
 }
 
 a{
-    color: black;
+    color: #FDCE30;
     text-decoration: none;
 }
 
-.project-github{
-    text-decoration: underline;
-}
 
 .linklogo{
     max-width: 80px;
     height: auto;
 }
 
-h2{
-    font-size: 20px;
-}
 
-.project-flex-container{
-    display: inline-flex;
-    margin-top: -40px;
-}
-
-.project-info{
-    margin: 40px;
-    /*border: 1px solid black;
-    padding: 5px;*/
-}
-
-.projectlogo:hover{
-    cursor: pointer;
-}
-.projectlogo{
-    max-height: 200px;
-    width: auto;
-}
 
 
 
@@ -165,21 +100,54 @@ h2{
   cursor: pointer;
 }
 
-.text {
-  color: grey;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
 
-  /*mess with this to move text*/
-  width: 300px;
-  transform: translate(-50%, -70%);
-
-  text-align: left;
+h1 {
+ font-family: Futura; 
+ text-shadow: 1px 1px #7d8593;
+ font-size: 50px; font-style: normal; 
+ font-variant: normal; 
+ font-weight: 400; 
+ line-height: auto; 
+} 
+h2{
+  font-family: "Trebuchet MS";
+  text-shadow: 0.5px 0.5px #7d8593;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 300;
+  line-height: auto;
 }
+h3 { 
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+   font-size: 25px;
+   font-style: normal; 
+   font-variant: normal; 
+   font-weight: 200;
+    line-height: auto;
+ } 
 
+p { 
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+  font-size: 14px; font-style: normal; 
+  font-variant: normal; 
+  font-weight: 400; 
+  line-height: auto; 
+} 
+blockquote { font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+ font-size: 17px; 
+ font-style: normal; 
+ font-variant: normal; 
+ font-weight: 400; 
+ line-height: auto;
+  } 
 
+pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
+  font-size: 11px; font-style: normal;
+  font-variant: normal; 
+  font-weight: 400;
+  line-height: 23px; 
+}
 
 .contact-link{
     display: inline-flex;
