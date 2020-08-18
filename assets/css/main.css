@@ -2274,10 +2274,12 @@
 		}
 
 		.image.left, .image.right {
-			max-width: 25%;
+			max-height: 40%;
+			max-width: 40%;
 		}
 
 			.image.left img, .image.right img {
+				height: 50%;
 				width: 50%;
 			}
 
@@ -2296,21 +2298,24 @@
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 75%;
+			height: 50%;
+			width: 50%;
 		}
 
 			.image.fit img {
-				width: 75%;
+				width: 100%;
 			}
 
 		.image.main {
 			display: block;
 			margin: 0 0 3em 0;
-			width: 75%;
+			height: 50%;
+			width: 50%;
 		}
 
 			.image.main img {
-				width: 75%;
+				height: 50%;
+				width: 50%;
 			}
 
 /* List */
