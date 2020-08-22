@@ -70,10 +70,10 @@
 	}
 
 	.linklogo{
-		max-width: 80px;
+		max-width: 240px;
 		height: auto;
 	}
-	
+
 	.contact-link{
 		display: inline-flex;
 		opacity: 1;
