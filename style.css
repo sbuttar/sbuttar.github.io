@@ -156,6 +156,5 @@ pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 .contact-link:hover{
     background-color: white;
     transition: .5s ease;
-    opacity: 0.5;
-    
+    opacity: 0.5; 
 }
