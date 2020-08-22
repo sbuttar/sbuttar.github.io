@@ -1,24 +1,24 @@
 /*
-	Retrospect by TEMPLATED
+	Binary by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
 (function($) {
 
-	skel
-		.breakpoints({
-			xlarge: '(max-width: 1680px)',
-			large: '(max-width: 1280px)',
-			medium: '(max-width: 980px)',
-			small: '(max-width: 736px)',
-			xsmall: '(max-width: 480px)'
-		});
+	skel.breakpoints({
+		xlarge:	'(max-width: 1680px)',
+		large:	'(max-width: 1280px)',
+		medium:	'(max-width: 980px)',
+		small:	'(max-width: 736px)',
+		xsmall:	'(max-width: 480px)'
+	});
 
 	$(function() {
 
 		var	$window = $(window),
-			$body = $('body');
+			$body = $('body'),
+			$header = $('#header');
 
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
@@ -32,6 +32,10 @@
 		// Fix: Placeholder polyfill.
 			$('form').placeholder();
 
+		// Fix: IE.
+			if (skel.vars.browser == 'ie')
+				$body.addClass('is-ie');
+
 		// Prioritize "important" elements on medium.
 			skel.on('+medium -medium', function() {
 				$.prioritize(
@@ -41,10 +45,10 @@
 			});
 
 		// Scrolly.
-		$('.scrolly').scrolly({
-			speed: 1000,
-			offset: $header.outerHeight() -1
-		});
+			$('.scrolly').scrolly({
+				speed: 1000,
+				offset: $header.outerHeight() -1
+			});
 
 		// Nav.
 			$('#nav')
@@ -58,6 +62,7 @@
 					resetForms: true,
 					side: 'right'
 				});
+
 	});
 
 })(jQuery);
