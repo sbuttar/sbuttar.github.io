@@ -53,6 +53,11 @@
 					side: 'right'
 				});
 
+		// Scrolly.
+			$('.scrolly').scrolly({
+				speed: 1000,
+				offset: $header.outerHeight() -1
+			});
 	});
 
 })(jQuery);
