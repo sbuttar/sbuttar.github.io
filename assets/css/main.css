@@ -69,6 +69,11 @@
 		
 	}
 
+	.linklogo{
+		max-width: 80px;
+		height: auto;
+	}
+	
 	.contact-link{
 		display: inline-flex;
 		opacity: 1;
