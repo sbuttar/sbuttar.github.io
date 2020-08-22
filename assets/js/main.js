@@ -40,12 +40,6 @@
 				);
 			});
 
-		// Scrolly.
-			$('.scrolly').scrolly({
-				speed: 1000,
-				offset: $header.outerHeight() -1
-			});
-			
 		// Nav.
 			$('#nav')
 				.append('<a href="#nav" class="close"></a>')
@@ -58,6 +52,12 @@
 					resetForms: true,
 					side: 'right'
 				});
+			
+		// Scrolly.
+			$('.scrolly').scrolly({
+				speed: 1000,
+				offset: $header.outerHeight() -1
+			});
 	});
 
 })(jQuery);
